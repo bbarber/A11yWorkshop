@@ -41,7 +41,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <Link to={`/product/${product.id}`} className="block flex-shrink-0">
         <img
           src={product.image}
-          alt={product.name}
+          // alt={product.name}
           className="w-full h-48 object-cover hover:opacity-90 transition-opacity"
         />
       </Link>

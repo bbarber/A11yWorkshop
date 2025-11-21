@@ -1,30 +1,31 @@
-import { useState, useMemo } from 'react';
-import { ProductCard } from '../components/ProductCard';
-import { products } from '../data/products';
+import { useState, useMemo } from "react";
+import { ProductCard } from "../components/ProductCard";
+import { products } from "../data/products";
 
 export const Home = () => {
-  const [selectedCategory, setSelectedCategory] = useState<string>('All');
-  const [sortBy, setSortBy] = useState<string>('name');
+  const [selectedCategory, setSelectedCategory] = useState<string>("All");
+  const [sortBy, setSortBy] = useState<string>("name");
   const [priceRange, setPriceRange] = useState<number>(1000);
 
-  const categories = ['All', ...new Set(products.map(p => p.category))];
+  const categories = ["All", ...new Set(products.map((p) => p.category))];
 
   const filteredAndSortedProducts = useMemo(() => {
-    let filtered = products.filter(p => {
-      const categoryMatch = selectedCategory === 'All' || p.category === selectedCategory;
+    let filtered = products.filter((p) => {
+      const categoryMatch =
+        selectedCategory === "All" || p.category === selectedCategory;
       const priceMatch = p.price <= priceRange;
       return categoryMatch && priceMatch;
     });
 
     filtered.sort((a, b) => {
       switch (sortBy) {
-        case 'price-low':
+        case "price-low":
           return a.price - b.price;
-        case 'price-high':
+        case "price-high":
           return b.price - a.price;
-        case 'rating':
+        case "rating":
           return b.rating - a.rating;
-        case 'name':
+        case "name":
         default:
           return a.name.localeCompare(b.name);
       }
@@ -39,9 +40,12 @@ export const Home = () => {
       <div className="bg-gradient-to-r from-indigo-600 to-indigo-800 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <h1 className="text-4xl font-bold mb-2">Our Products</h1>
-          <p className="text-indigo-100">
+          <h1 className="text-indigo-100 fs-1">
             Discover our wide selection of quality products
-          </p>
+          </h1>
+          {/* <p className="text-indigo-100">
+            Discover our wide selection of quality products
+          </p> */}
         </div>
       </div>
 
@@ -58,8 +62,11 @@ export const Home = () => {
                   Category
                 </h3>
                 <div className="space-y-2">
-                  {categories.map(category => (
-                    <label key={category} className="flex items-center gap-2 cursor-pointer">
+                  {categories.map((category) => (
+                    <label
+                      key={category}
+                      className="flex items-center gap-2 cursor-pointer"
+                    >
                       <input
                         type="radio"
                         name="category"
@@ -76,10 +83,13 @@ export const Home = () => {
 
               {/* Price Range Filter */}
               <div>
+                {/* <label htmlFor="price-range"> */}
                 <h3 className="text-sm font-semibold text-gray-900 mb-3">
                   Price Range
                 </h3>
+                {/* </label> */}
                 <input
+                  id="price-range"
                   type="range"
                   min="0"
                   max="1000"
@@ -87,7 +97,11 @@ export const Home = () => {
                   value={priceRange}
                   onChange={(e) => setPriceRange(Number(e.target.value))}
                   className="w-full"
+                  aria-valuemin={0}
+                  aria-valuemax={1000}
+                  aria-valuenow={priceRange}
                 />
+                {/* aria-label="Price Range" */}
                 <p className="text-sm text-gray-600 mt-2">
                   Up to ${priceRange}
                 </p>
@@ -103,7 +117,10 @@ export const Home = () => {
                 Showing {filteredAndSortedProducts.length} products
               </p>
               <div className="flex items-center gap-2">
-                <label htmlFor="sort" className="text-sm font-medium text-gray-700">
+                <label
+                  htmlFor="sort"
+                  className="text-sm font-medium text-gray-700"
+                >
                   Sort by:
                 </label>
                 <select
@@ -123,7 +140,7 @@ export const Home = () => {
             {/* Products Grid */}
             {filteredAndSortedProducts.length > 0 ? (
               <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6">
-                {filteredAndSortedProducts.map(product => (
+                {filteredAndSortedProducts.map((product) => (
                   <ProductCard key={product.id} product={product} />
                 ))}
               </div>

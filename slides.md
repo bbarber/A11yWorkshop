@@ -56,8 +56,6 @@ layout: default
 
 # WCAG 2.1 AA Standards
 
-<v-clicks>
-
 **Web Content Accessibility Guidelines (WCAG)**
 
 - Three conformance levels: **A** (minimum), **AA** (standard), **AAA** (enhanced)
@@ -66,6 +64,13 @@ layout: default
 <!--
 WCAG is the international standard. AA level is what most laws require. The POUR principles are the foundation of all accessibility work.
 -->
+
+---
+layout: center
+class: text-center
+---
+
+# Common A11y Issues
 
 ---
 layout: two-cols
@@ -428,49 +433,4 @@ These resources will help you continue learning. The WebAIM site is particularly
 layout: center
 class: text-center
 ---
-
-# Remember
-
-<div class="text-2xl mt-8">
-
-Accessibility is not optional
-
-Start small, improve incrementally
-
-Test early and often
-
-Everyone benefits from accessible design
-
-</div>
-
-<!--
-Don't get overwhelmed. Start with automated testing, fix the easy stuff, and build accessibility into your workflow from the start.
--->
-
----
-layout: center
-class: text-center
----
-
 # Demo
-
----
-layout: center
-class: text-center
----
-
-# Thank You!
-
-Questions?
-
-<div class="mt-8">
-
-**Workshop Repository:**
-
-[github.com/bbarber/A11yWorkshop](https://github.com/bbarber/A11yWorkshop)
-
-</div>
-
-<!--
-Thank you for attending! Check out the workshop repo for code examples and more resources.
--->

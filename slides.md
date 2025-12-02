@@ -28,6 +28,38 @@ Welcome everyone! Today we're going to talk about web accessibility, why it matt
 -->
 
 ---
+layout: center
+class: text-center
+---
+
+# About Us
+
+<div class="flex justify-center gap-16 items-start">
+  <div class="flex flex-col items-center">
+    <img src="https://avatars.githubusercontent.com/u/613184?v=4" class="rounded-full w-40 h-40 mb-4 object-cover" alt="Branden Barber" />
+    <h2 class="text-xl font-bold">Branden Barber</h2>
+    <p class="text-sm mt-1">Senior Software Engineer</p>
+  </div>
+  <div class="flex flex-col items-center">
+    <img src="https://dontpaniclabs.com/wp-content/uploads/2023/07/cmichel.webp" class="rounded-full w-40 h-40 mb-4 object-cover" alt="Chad Michel" />
+    <h2 class="text-xl font-bold">Chad Michel</h2>
+    <p class="text-sm mt-1">Chief Technology Officer</p>
+  </div>
+</div>
+
+---
+layout: center
+class: text-center
+---
+
+<div class="flex flex-col items-center">
+  <img src="https://dontpaniclabs.com/wp-content/uploads/2023/06/DPL-full-color-2-o.svg" class="w-96 mb-8" alt="Don't Panic Labs" />
+  <p class="text-xl max-w-2xl">
+    Since 2010, partnering with organizations to engineer software products and grow development teams
+  </p>
+</div>
+
+---
 layout: default
 ---
 

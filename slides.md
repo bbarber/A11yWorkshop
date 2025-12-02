@@ -38,13 +38,11 @@ layout: default
 - **A11y** = Accessibility (a + 11 letters + y)
 - Making web content usable by everyone, regardless of ability
 - About **15% of the global population** has some form of disability
-- It's not "nice to have" - it's **essential**
+- Required by law in many countries
+
 
 </v-clicks>
 
-<div v-click class="mt-8 p-4 bg-blue-100 rounded">
-<strong>Key Point:</strong> Accessibility benefits everyone - keyboard users, mobile users, people with slow connections, aging populations
-</div>
 
 <!--
 Accessibility is often abbreviated as A11y. It's about making sure everyone can use your website or app, including people with visual, auditory, motor, or cognitive disabilities. But it also helps everyone else too.
@@ -63,6 +61,42 @@ layout: default
 
 <!--
 WCAG is the international standard. AA level is what most laws require. The POUR principles are the foundation of all accessibility work.
+-->
+
+---
+layout: default
+---
+
+# A11y Maturity Levels
+
+Where does your project stand?
+
+<div class="mt-8 space-y-4">
+
+<div>
+<h3 class="text-red-600 font-bold text-xl">None</h3>
+<p>No accessibility considerations</p>
+</div>
+
+<div>
+<h3 class="text-yellow-600 font-bold text-xl">Good</h3>
+<p>Basic coding best practices - Semantic HTML, form labels, alt text on images</p>
+</div>
+
+<div>
+<h3 class="text-blue-600 font-bold text-xl">Better</h3>
+<p>Using scanning tools - Lighthouse audits, axe DevTools, manual testing</p>
+</div>
+
+<div>
+<h3 class="text-green-600 font-bold text-xl">Best</h3>
+<p>Fully automated testing - CI/CD integration, axe-core in tests, prevents regressions</p>
+</div>
+
+</div>
+
+<!--
+Start where you are. Even moving from None to Good makes a huge difference. Better adds tooling to catch issues during development. Best prevents accessibility bugs from reaching production.
 -->
 
 ---
@@ -350,6 +384,60 @@ Multiple tools to catch accessibility issues
 
 <!--
 Each tool has strengths. Lighthouse for quick scores, WAVE for visual feedback, axe for detailed debugging. Use multiple tools for best coverage.
+-->
+
+---
+layout: default
+---
+
+# Screen Reader Testing
+
+Essential for validating real user experience
+
+<div class="mt-8 space-y-6">
+
+**Windows:** NVDA (free) or JAWS (paid)
+
+**macOS:** VoiceOver (built-in, `Cmd + F5` to toggle)
+
+</div>
+
+<div class="mt-12">
+
+**Key Things to Test:**
+- Can you navigate without seeing the screen?
+- Are labels and buttons clear?
+- Does the heading structure make sense?
+
+</div>
+
+<!--
+Automated tools catch only 30-40% of issues. Screen reader testing is crucial for understanding real user experience. Start with VoiceOver on Mac or NVDA on Windows - both are free.
+-->
+
+---
+layout: two-cols
+---
+
+# Visually Hidden Content
+
+Hide content visually while keeping it accessible to screen readers
+
+::right::
+
+<div class="mt-8">
+
+**Common Use Cases:**
+- Adding context to icon buttons
+- Skip navigation links
+- Additional form instructions
+- Status messages for dynamic content
+- Color-only information (e.g., "Error:" before red text)
+
+</div>
+
+<!--
+Visually hidden content is essential for providing context to screen reader users without cluttering the visual design. Never use display:none or visibility:hidden for this - they hide content from everyone including screen readers.
 -->
 
 ---

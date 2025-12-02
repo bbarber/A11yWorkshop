@@ -360,6 +360,12 @@ layout: two-cols
 
 Automate accessibility testing in your CI/CD
 
+**Considerations:**
+
+- **Mock APIs** - Remove backend dependencies by mocking api responses
+- **Authentication** - Create mock user to bypass login flows. Differs based on auth provider
+
+
 ::right::
 
 <div class="pl-4">
@@ -381,9 +387,6 @@ test('should not have a11y violations',
 });
 ```
 
-<div class="mt-4 p-3 bg-orange-100 rounded text-sm">
-Automated testing is great, but manual testing with keyboard and screen readers is still essential.
-</div>
 
 </div>
 

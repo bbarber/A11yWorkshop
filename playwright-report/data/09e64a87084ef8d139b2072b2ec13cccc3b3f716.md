@@ -1,0 +1,94 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "D DPL Supply Co." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: D
+          - generic [ref=e10]: DPL Supply Co.
+        - generic [ref=e11]:
+          - link "Products" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e14]
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - link "← Back to Products" [ref=e19] [cursor=pointer]:
+        - /url: /
+      - generic [ref=e21]:
+        - img "Mechanical RGB Keyboard" [ref=e23]
+        - generic [ref=e24]:
+          - text: Peripherals
+          - heading "Mechanical RGB Keyboard" [level=1] [ref=e25]
+          - generic [ref=e26]:
+            - generic [ref=e27]:
+              - generic [ref=e28]:
+                - img [ref=e29]
+                - img [ref=e31]
+                - img [ref=e33]
+                - img [ref=e35]
+                - img [ref=e37]
+              - generic [ref=e39]: (156 reviews)
+            - paragraph [ref=e40]: "Rating: 4.7/5"
+          - paragraph [ref=e42]: $149.99
+          - paragraph [ref=e43]: Professional-grade mechanical keyboard with hot-swappable switches, per-key RGB lighting, and programmable macro keys. Perfect for coding marathons.
+          - paragraph [ref=e45]: ✓ In Stock
+          - generic [ref=e46]:
+            - generic [ref=e47]:
+              - generic [ref=e48]: Quantity
+              - spinbutton "Quantity" [ref=e49]: "1"
+            - button "Add to Cart" [ref=e50] [cursor=pointer]
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: "SKU: PROD-1"
+            - paragraph [ref=e53]: "Category: Peripherals"
+  - contentinfo [ref=e54]:
+    - generic [ref=e55]:
+      - generic [ref=e56]:
+        - generic [ref=e57]:
+          - heading "About Us" [level=3] [ref=e58]
+          - paragraph [ref=e59]: DPL Supply Co. is dedicated to providing quality products and excellent customer service.
+        - generic [ref=e60]:
+          - heading "Quick Links" [level=3] [ref=e61]
+          - list [ref=e62]:
+            - listitem [ref=e63]:
+              - link "Home" [ref=e64] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e65]:
+              - link "Products" [ref=e66] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e67]:
+              - link "About" [ref=e68] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e69]:
+              - link "Contact" [ref=e70] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e71]:
+          - heading "Support" [level=3] [ref=e72]
+          - list [ref=e73]:
+            - listitem [ref=e74]:
+              - link "FAQ" [ref=e75] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e76]:
+              - link "Shipping" [ref=e77] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e78]:
+              - link "Returns" [ref=e79] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e80]:
+              - link "Privacy" [ref=e81] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e82]:
+          - heading "Follow Us" [level=3] [ref=e83]
+          - generic [ref=e84]:
+            - link "Facebook" [ref=e85] [cursor=pointer]:
+              - /url: "#"
+            - link "Twitter" [ref=e86] [cursor=pointer]:
+              - /url: "#"
+            - link "Instagram" [ref=e87] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=e89]: © 2024 DPL Supply Co. All rights reserved.
+```

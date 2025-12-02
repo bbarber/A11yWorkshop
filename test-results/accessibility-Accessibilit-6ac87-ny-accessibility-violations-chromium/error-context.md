@@ -1,0 +1,71 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - banner [ref=e4]:
+    - navigation [ref=e5]:
+      - generic [ref=e6]:
+        - link "D DPL Supply Co." [ref=e7] [cursor=pointer]:
+          - /url: /
+          - generic [ref=e9]: D
+          - generic [ref=e10]: DPL Supply Co.
+        - generic [ref=e11]:
+          - link "Products" [ref=e12] [cursor=pointer]:
+            - /url: /
+          - link [ref=e13] [cursor=pointer]:
+            - /url: /cart
+            - img [ref=e14]
+  - main [ref=e16]:
+    - generic [ref=e18]:
+      - img [ref=e19]
+      - heading "Your Cart is Empty" [level=1] [ref=e21]
+      - paragraph [ref=e22]: Add some products to get started!
+      - link "Continue Shopping" [ref=e23] [cursor=pointer]:
+        - /url: /
+  - contentinfo [ref=e24]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "About Us" [level=3] [ref=e28]
+          - paragraph [ref=e29]: DPL Supply Co. is dedicated to providing quality products and excellent customer service.
+        - generic [ref=e30]:
+          - heading "Quick Links" [level=3] [ref=e31]
+          - list [ref=e32]:
+            - listitem [ref=e33]:
+              - link "Home" [ref=e34] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e35]:
+              - link "Products" [ref=e36] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e37]:
+              - link "About" [ref=e38] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e39]:
+              - link "Contact" [ref=e40] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e41]:
+          - heading "Support" [level=3] [ref=e42]
+          - list [ref=e43]:
+            - listitem [ref=e44]:
+              - link "FAQ" [ref=e45] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e46]:
+              - link "Shipping" [ref=e47] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e48]:
+              - link "Returns" [ref=e49] [cursor=pointer]:
+                - /url: "#"
+            - listitem [ref=e50]:
+              - link "Privacy" [ref=e51] [cursor=pointer]:
+                - /url: "#"
+        - generic [ref=e52]:
+          - heading "Follow Us" [level=3] [ref=e53]
+          - generic [ref=e54]:
+            - link "Facebook" [ref=e55] [cursor=pointer]:
+              - /url: "#"
+            - link "Twitter" [ref=e56] [cursor=pointer]:
+              - /url: "#"
+            - link "Instagram" [ref=e57] [cursor=pointer]:
+              - /url: "#"
+      - paragraph [ref=e59]: © 2024 DPL Supply Co. All rights reserved.
+```

@@ -101,7 +101,7 @@ export const Home = () => {
                   aria-valuemax={1000}
                   aria-valuenow={priceRange}
                 />
-                {/* aria-label="Price Range" */}
+                
                 <p className="text-sm text-gray-600 mt-2">
                   Up to ${priceRange}
                 </p>

@@ -19,7 +19,7 @@
     - generic [ref=e17]:
       - generic [ref=e19]:
         - heading "Our Products" [level=1] [ref=e20]
-        - paragraph [ref=e21]: Discover our wide selection of quality products
+        - heading "Discover our wide selection of quality products" [level=1] [ref=e21]
       - generic [ref=e23]:
         - complementary [ref=e24]:
           - generic [ref=e25]:
@@ -73,9 +73,9 @@
                 - option "Highest Rated"
           - generic [ref=e70]:
             - generic [ref=e71]:
-              - link "4K USB-C Monitor 32\"" [ref=e72] [cursor=pointer]:
+              - link [ref=e72] [cursor=pointer]:
                 - /url: /product/6
-                - img "4K USB-C Monitor 32\"" [ref=e73]
+                - img [ref=e73]
               - generic [ref=e74]:
                 - generic [ref=e75]: Displays
                 - link "4K USB-C Monitor 32\"" [ref=e76] [cursor=pointer]:
@@ -95,9 +95,9 @@
                     - generic [ref=e95]: Out of Stock
                   - button "Add to Cart" [disabled] [ref=e96]
             - generic [ref=e97]:
-              - link "Custom Keycap Set" [ref=e98] [cursor=pointer]:
+              - link [ref=e98] [cursor=pointer]:
                 - /url: /product/8
-                - img "Custom Keycap Set" [ref=e99]
+                - img [ref=e99]
               - generic [ref=e100]:
                 - generic [ref=e101]: Accessories
                 - link "Custom Keycap Set" [ref=e102] [cursor=pointer]:
@@ -115,9 +115,9 @@
                   - generic [ref=e120]: $89.99
                   - button "Add to Cart" [ref=e121] [cursor=pointer]
             - generic [ref=e122]:
-              - link "Desk Cable Organizer Kit" [ref=e123] [cursor=pointer]:
+              - link [ref=e123] [cursor=pointer]:
                 - /url: /product/12
-                - img "Desk Cable Organizer Kit" [ref=e124]
+                - img [ref=e124]
               - generic [ref=e125]:
                 - generic [ref=e126]: Organization
                 - link "Desk Cable Organizer Kit" [ref=e127] [cursor=pointer]:
@@ -135,9 +135,9 @@
                   - generic [ref=e145]: $29.99
                   - button "Add to Cart" [ref=e146] [cursor=pointer]
             - generic [ref=e147]:
-              - link "Developer Hoodie" [ref=e148] [cursor=pointer]:
+              - link [ref=e148] [cursor=pointer]:
                 - /url: /product/11
-                - img "Developer Hoodie" [ref=e149]
+                - img [ref=e149]
               - generic [ref=e150]:
                 - generic [ref=e151]: Merch
                 - link "Developer Hoodie" [ref=e152] [cursor=pointer]:
@@ -155,9 +155,9 @@
                   - generic [ref=e170]: $64.99
                   - button "Add to Cart" [ref=e171] [cursor=pointer]
             - generic [ref=e172]:
-              - link "Dual Monitor Arm Mount" [ref=e173] [cursor=pointer]:
+              - link [ref=e173] [cursor=pointer]:
                 - /url: /product/3
-                - img "Dual Monitor Arm Mount" [ref=e174]
+                - img [ref=e174]
               - generic [ref=e175]:
                 - generic [ref=e176]: Desk Setup
                 - link "Dual Monitor Arm Mount" [ref=e177] [cursor=pointer]:
@@ -175,9 +175,9 @@
                   - generic [ref=e195]: $89.99
                   - button "Add to Cart" [ref=e196] [cursor=pointer]
             - generic [ref=e197]:
-              - link "Extended XL Mousepad" [ref=e198] [cursor=pointer]:
+              - link [ref=e198] [cursor=pointer]:
                 - /url: /product/10
-                - img "Extended XL Mousepad" [ref=e199]
+                - img [ref=e199]
               - generic [ref=e200]:
                 - generic [ref=e201]: Peripherals
                 - link "Extended XL Mousepad" [ref=e202] [cursor=pointer]:
@@ -195,9 +195,9 @@
                   - generic [ref=e220]: $34.99
                   - button "Add to Cart" [ref=e221] [cursor=pointer]
             - generic [ref=e222]:
-              - link "LED Desk Lamp with Blue Light Filter" [ref=e223] [cursor=pointer]:
+              - link [ref=e223] [cursor=pointer]:
                 - /url: /product/7
-                - img "LED Desk Lamp with Blue Light Filter" [ref=e224]
+                - img [ref=e224]
               - generic [ref=e225]:
                 - generic [ref=e226]: Lighting
                 - link "LED Desk Lamp with Blue Light Filter" [ref=e227] [cursor=pointer]:
@@ -215,9 +215,9 @@
                   - generic [ref=e245]: $59.99
                   - button "Add to Cart" [ref=e246] [cursor=pointer]
             - generic [ref=e247]:
-              - link "Mechanical RGB Keyboard" [ref=e248] [cursor=pointer]:
+              - link [ref=e248] [cursor=pointer]:
                 - /url: /product/1
-                - img "Mechanical RGB Keyboard" [ref=e249]
+                - img [ref=e249]
               - generic [ref=e250]:
                 - generic [ref=e251]: Peripherals
                 - link "Mechanical RGB Keyboard" [ref=e252] [cursor=pointer]:
@@ -235,9 +235,9 @@
                   - generic [ref=e270]: $149.99
                   - button "Add to Cart" [ref=e271] [cursor=pointer]
             - generic [ref=e272]:
-              - link "Programmable Macro Pad" [ref=e273] [cursor=pointer]:
+              - link [ref=e273] [cursor=pointer]:
                 - /url: /product/9
-                - img "Programmable Macro Pad" [ref=e274]
+                - img [ref=e274]
               - generic [ref=e275]:
                 - generic [ref=e276]: Peripherals
                 - link "Programmable Macro Pad" [ref=e277] [cursor=pointer]:
@@ -255,9 +255,9 @@
                   - generic [ref=e295]: $64.99
                   - button "Add to Cart" [ref=e296] [cursor=pointer]
             - generic [ref=e297]:
-              - link "USB-C 42-in-1 Docking Station" [ref=e298] [cursor=pointer]:
+              - link [ref=e298] [cursor=pointer]:
                 - /url: /product/4
-                - img "USB-C 42-in-1 Docking Station" [ref=e299]
+                - img [ref=e299]
               - generic [ref=e300]:
                 - generic [ref=e301]: Connectivity
                 - link "USB-C 42-in-1 Docking Station" [ref=e302] [cursor=pointer]:
@@ -275,9 +275,9 @@
                   - generic [ref=e320]: $159.99
                   - button "Add to Cart" [ref=e321] [cursor=pointer]
             - generic [ref=e322]:
-              - link "Vertical Ergonomic Mouse" [ref=e323] [cursor=pointer]:
+              - link [ref=e323] [cursor=pointer]:
                 - /url: /product/2
-                - img "Vertical Ergonomic Mouse" [ref=e324]
+                - img [ref=e324]
               - generic [ref=e325]:
                 - generic [ref=e326]: Peripherals
                 - link "Vertical Ergonomic Mouse" [ref=e327] [cursor=pointer]:
@@ -295,9 +295,9 @@
                   - generic [ref=e345]: $79.99
                   - button "Add to Cart" [ref=e346] [cursor=pointer]
             - generic [ref=e347]:
-              - link "Wireless ANC Headphones" [ref=e348] [cursor=pointer]:
+              - link [ref=e348] [cursor=pointer]:
                 - /url: /product/5
-                - img "Wireless ANC Headphones" [ref=e349]
+                - img [ref=e349]
               - generic [ref=e350]:
                 - generic [ref=e351]: Audio
                 - link "Wireless ANC Headphones" [ref=e352] [cursor=pointer]:

@@ -518,6 +518,30 @@ This is from the workshop repo. Automated testing catches common issues but can'
 layout: default
 ---
 
+# Accessibility Statements
+
+Communicate your commitment to accessibility
+
+<div class="mt-8">
+
+Many organizations publish an **Accessibility Statement** page that:
+
+- Documents your commitment to accessibility standards (e.g., WCAG 2.1 AA)
+- Lists known accessibility issues and remediation plans
+- Provides contact information for reporting accessibility problems
+- Shows compliance status and testing methods
+- Demonstrates transparency and accountability
+
+</div>
+
+<!--
+Publishing an accessibility statement demonstrates commitment and provides users with a channel to report barriers they encounter. It's also required by law in some jurisdictions.
+-->
+
+---
+layout: default
+---
+
 # Quick Wins Checklist
 
 Easy fixes you can implement today

@@ -13,9 +13,8 @@ transition: slide-left
 mdc: true
 ---
 
-# Web Accessibility (A11y) 101
+# Web Accessibility Workshop
 
-Making the Web Work for Everyone
 
 <div class="pt-12">
   <span class="px-2 py-1">

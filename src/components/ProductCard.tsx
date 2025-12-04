@@ -1,7 +1,7 @@
-import { Link } from 'react-router-dom';
-import { Product } from '../types/index';
-import { useCart } from '../context/CartContext';
-import { useState } from 'react';
+import { Link } from "react-router-dom";
+import { Product } from "../types/index";
+import { useCart } from "../context/CartContext";
+import { useState } from "react";
 
 interface ProductCardProps {
   product: Product;
@@ -24,7 +24,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           <svg
             key={i}
             className={`w-4 h-4 ${
-              i < Math.floor(rating) ? 'text-yellow-400' : 'text-gray-300'
+              i < Math.floor(rating) ? "text-yellow-400" : "text-gray-300"
             }`}
             fill="currentColor"
             viewBox="0 0 20 20"
@@ -41,7 +41,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
       <Link to={`/product/${product.id}`} className="block flex-shrink-0">
         <img
           src={product.image}
-          // alt={product.name}
+          alt={product.name.includes("4K") ? "" : product.name}
           className="w-full h-48 object-cover hover:opacity-90 transition-opacity"
         />
       </Link>
@@ -90,11 +90,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             disabled={!product.inStock}
             className={`w-full py-2 px-4 rounded-lg font-medium transition-all ${
               product.inStock
-                ? 'bg-indigo-600 text-white hover:bg-indigo-700'
-                : 'bg-gray-300 text-gray-500 cursor-not-allowed'
-            } ${addedToCart ? 'bg-green-600' : ''}`}
+                ? "bg-indigo-600 text-white hover:bg-indigo-700"
+                : "bg-gray-300 text-gray-500 cursor-not-allowed"
+            } ${addedToCart ? "bg-green-600" : ""}`}
           >
-            {addedToCart ? '✓ Added to Cart' : 'Add to Cart'}
+            {addedToCart ? "✓ Added to Cart" : "Add to Cart"}
           </button>
         </div>
       </div>
